@@ -1,0 +1,17 @@
+name:Learning GitHub script
+on:
+issues:
+types:[opened]
+jobs:
+comment:
+runs-on:ubuntu-latest
+steps:
+-uses:actions/github.scripts@0.8.0
+with:
+github-token:${{secreats.GITHUB-TOKEN}}
+script:
+github.issues.createcomment({
+issue_number:context.issue.number,
+owner:context.repo.owner,
+repo:context.repo.repo,
+body:"you have created this issue comment using Github script !!!"
