@@ -1,6 +1,6 @@
 name:Learning GitHub script
 on:
-issues:
+Issues:
 types:[opened]
 jobs:
 comment:
