@@ -10,7 +10,7 @@ on:Triggers the workflow on push or pull request events but only for the main br
 jobs:# This workflow contains a single job called "build"
   build:The type of runner that the job will run on
  name:Learning GitHub script
-issues:
+
 types:[opened]
 jobs:
 comment:  
