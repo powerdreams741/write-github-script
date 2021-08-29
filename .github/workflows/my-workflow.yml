@@ -1,5 +1,5 @@
 name:Learning GitHub script
-push:On
+on:push
 issues:On
 types:[opened]
 jobs:On
