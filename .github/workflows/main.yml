@@ -8,7 +8,7 @@ on:Triggers the workflow on push or pull request events but only for the main br
   workflow_dispatch:A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:# This workflow contains a single job called "build"
   build:The type of runner that the job will run on
- name:Learning GitHub Script
+ name:GitHub Script
 push:On
 issues:On
 types:[opened] 
