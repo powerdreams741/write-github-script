@@ -1,4 +1,4 @@
-name:Learning GitHub script
+name:Learning github script
 on:push
 issues:On
 types:[opened]
