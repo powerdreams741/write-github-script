@@ -1,16 +1,14 @@
 name:Learning GitHub script
-on:
-issues:
+push:On
+issues:On
 types:[opened]
-jobs:
-comment:
+jobs:On
+comment:On
 runs-on:ubuntu-latest
-steps:
+steps:On
 -uses:actions/github.scripts@0.8.0
-with:
-github-token:${{secreats.GITHUB-TOKEN}}
-script:
-github.issues.createcomment({
+with:github-token:${{secreats.GITHUB-TOKEN}}
+script:github.issues.createcomment({
 issue_number:context.issue.number,
 owner:context.repo.owner,
 repo:context.repo.repo,
